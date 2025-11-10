@@ -1,5 +1,7 @@
 # vomit
 
+![vomit banner](banner.jpg)
+
 raw thoughts → clean todos
 
 minimal framework for turning brain dumps into actionable todos across timeframes
