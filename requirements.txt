@@ -1,0 +1,19 @@
+# Core CLI Framework
+typer[all]>=0.9.0
+rich>=13.0.0
+
+# Cross-Platform Support
+plyer>=2.1.0
+pathlib2>=2.3.7; python_version < "3.4"
+
+# AI Integration
+openai>=1.0.0
+anthropic>=0.7.0
+google-generativeai>=0.3.0
+
+# File Operations
+python-dateutil>=2.8.2
+
+# Development Dependencies
+pytest>=7.0.0
+pytest-mock>=3.10.0

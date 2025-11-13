@@ -1,0 +1,3 @@
+"""
+Vomit CLI Core Module
+"""
