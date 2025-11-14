@@ -9,9 +9,10 @@ class FileOperations:
         if base_dir is None:
             base_dir = Path.cwd()
         self.base_dir = Path(base_dir)
+        self.data_dir = self.base_dir / "data"
     
     def get_file_path(self, timeframe: Timeframe) -> Path:
-        return self.base_dir / timeframe.value
+        return self.data_dir / timeframe.value
     
     def read_task_file(self, timeframe: Timeframe) -> TaskFile:
         file_path = self.get_file_path(timeframe)
